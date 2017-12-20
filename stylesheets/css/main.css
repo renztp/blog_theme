@@ -1,0 +1,22 @@
+.nav-bg-dark {
+  box-shadow: 0px 2px 3px #ddd;
+  border-bottom: 1px solid #ccc; }
+
+.card.effect {
+  background-color: #233d66;
+  cursor: pointer;
+  box-shadow: 0px 2px 3px #1d2d47;
+  transition: all 0.5s ease;
+  border: 0; }
+  .card.effect:hover {
+    box-shadow: 0px 3px 35px #182a47; }
+  .card.effect .card-body {
+    background-color: #233d66; }
+
+.foot-ico i {
+  font-size: 1.8rem; }
+
+.foot-newsletter .card {
+  background: #e7ef8b; }
+
+/*# sourceMappingURL=main.css.map */
