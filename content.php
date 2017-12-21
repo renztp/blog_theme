@@ -1,19 +1,63 @@
-
-    <div class="container pt-5 pb-5">
+<article class="first_back mt-5">
+    <div class="container pt-5 pb-5 text-light">
         <div class="row pt-5 pb-5">
-            <div class="col-md-12 d-flex justify-content-center">
+            <div class="col-md-5 d-flex justify-content-center">
                 <div class="justify-self-center text-center">
                     <h2 class="display-4">Learn to <u>Code</u></h2>
-                    <p class="lead" style="font-family: nunito; width: 50%; margin: 0 auto;">
+                    <p class="lead" style="font-family: nunito; width: 80%; margin: 0 auto;">
                         The best website to learn web technologies and AI based computer languages.
                     </p>
                 </div>
             </div>
-            
+            <div class="col-md-5">
+                <img src="https://www.codeschool.com/assets/pages/home/illo-guide-badges-1c2f67ab7b7e1c5091e6120dd75768a47d07cdad73ca4089f1c2cf6debf2950b.png" alt="" width="250" class="float-right">
+            </div>
         </div>
     </div>
+</article>
 
-
+<article class="front-cards">
+    <div class="container pt-5 pb-5">
+        <div class="row pt-5 pb-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center text-dark pt-4">
+                        <h4>Books and PDF's</h4>
+                        <p>Enter your email address to get the
+                        latest updates to codetuts</p>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item"><i class="fa fa-arrow-right"></i> <span>Go to Book and PDF section</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center text-dark pt-4">
+                        <h4>Get the Latest</h4>
+                        <p>Enter your email address to get the
+                        latest updates to codetuts</p>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item"><i class="fa fa-arrow-right"></i> <span>Check out our blog posts</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center text-dark pt-4">
+                        <h4>Ted Talks</h4>
+                        <p>Watch our developers/Programmers
+                        speak and share their knowledge.</p>
+                    </div>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item"><i class="fa fa-arrow-right"></i> <span>Watch our talks at TED talks</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
 
 
 <article style="background-image: url('https://protiumdesign.com/wp-content/uploads/2017/02/Flat-Space-Wallpaper.jpg'); background-size: cover;">
@@ -39,7 +83,9 @@
                                 <div class="col-md-4 ">
                                     <div class="card effect" style="background: #233d66;">
                                         <div class="card-body">
-                                            <img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="" class="card-img-top" width="50">
+                                            <a href="">
+                                                <img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="" class="card-img-top" width="50">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +108,8 @@
                                 <div class="col-md-4">
                                     <div class="card effect">
                                         <div class="card-body">
-                                            <img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="" class="card-img-top" width="50">
+                                            <a href="<?php echo home_url(); ?>/tutorial-cpp/"><img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="" class="card-img-top" width="50">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +137,7 @@
 </article>
 <article>
     <div class="container">
-        
+
         <div class="row pt-5">
             <div class="col-md-12">
                 <h3>Learn Frameworks and other tools</h3>
@@ -224,6 +271,7 @@
         </div>
     </div>
 </article>
+
 
 <br><br>
 <div class="search-win" style="position: absolute; width: 100%; height: 100vh; background: #333; top: 0; left: 0; z-index; 99; display: none;">

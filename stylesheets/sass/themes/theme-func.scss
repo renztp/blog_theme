@@ -1,31 +1,9 @@
-
-
-
-
-
 .nav-bg-dark {
-    box-shadow: 0px 2px 3px #ddd;
-    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 2px 3px #172233;
+    border-bottom: 1px solid #1f2f47;
+    background: #202e44;
+
 }
-
-
-
-
-.card.effect {
-    background-color: #233d66;
-    cursor: pointer;
-    box-shadow: 0px 2px 3px #1d2d47;
-    transition: all 0.5s ease;
-    border: 0;
-    &:hover {
-        box-shadow: 0px 3px 35px #182a47;
-    }
-
-    .card-body {
-       background-color: #233d66;
-    }
-}
-
 
 .foot-ico {
     i { font-size: 1.8rem; }
@@ -35,4 +13,40 @@
     .card {
         background: #e7ef8b;
     }
+}
+
+
+.first_back {
+    background-image: url('http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/06/Icon_back.jpg');
+    background-size: cover;
+}
+
+
+.sidebar-card {
+    box-shadow: 0px 2px 3px #233c63;
+    .card-header {
+        background: #1f2f49;
+        color:#fff;
+    }   
+    .list-group {
+        background: #293e60;
+        .list-group-item {
+            cursor: pointer;
+            background: #2c446b;
+            transition: all 0.5s ease;
+            color: #ddd;
+            border-top: 1px solid #39537c;
+            border-bottom: 1px solid #1d2e47;
+            margin-bottom: 2px;
+            &:hover {
+                background: #223554;
+            }
+        } 
+    }        
+}
+
+.main {
+    background: #fff;
+    box-shadow: 0px 2px 3px #ddd;
+    border: 1px solid #e2e2e2;
 }
