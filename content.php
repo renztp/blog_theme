@@ -108,7 +108,7 @@
                                 <div class="col-md-4">
                                     <div class="card effect">
                                         <div class="card-body">
-                                            <a href="<?php echo home_url(); ?>/index.php/tutorial-cpp/"><img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="" class="card-img-top" width="50">
+                                            <a href="<?php echo home_url(); ?>"/tutorial-cpp/"><img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="" class="card-img-top" width="50">
                                             </a>
                                         </div>
                                     </div>
