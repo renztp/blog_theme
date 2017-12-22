@@ -108,7 +108,7 @@
                                 <div class="col-md-4">
                                     <div class="card effect">
                                         <div class="card-body">
-                                            <a href="<?php echo home_url(); ?>/tutorial-cpp/"><img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="" class="card-img-top" width="50">
+                                            <a href="<?php echo home_url(); ?>/index.php/tutorial-cpp/"><img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="" class="card-img-top" width="50">
                                             </a>
                                         </div>
                                     </div>
@@ -262,19 +262,12 @@
     </div>
 
 </article>
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-
-            </div>
-        </div>
-    </div>
-</article>
-
 
 <br><br>
-<div class="search-win" style="position: absolute; width: 100%; height: 100vh; background: #333; top: 0; left: 0; z-index; 99; display: none;">
+
+
+
+<div id="search_win" class="search-win" style="position: fixed; width: 100%; height: 100%;">
     <br><br>
     <div class="container">
         <div class="row">
@@ -284,3 +277,24 @@
         </div>
     </div>
 </div>
+<script>
+    var trig = false;
+    var elem = document.getElementById("search_win");
+    document.getElementById('search_btn').onclick = function() {
+        if(trig == false){
+            elem.style.display = "block";
+            elem.style.animation = "appear 1s";
+            console.log("clicked");
+            console.log(trig);
+            trig = true;
+        }
+
+        else {
+            elem.style.display = "none";
+            console.log("clicked");
+            console.log(trig);
+            trig = false;
+        }
+    };
+
+</script>

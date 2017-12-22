@@ -26,3 +26,12 @@
         }
     }
 }
+
+.sidebar-card {
+    .list-group {
+        .list-group-item {
+            cursor: pointer;
+            margin-bottom: 2px;
+        } 
+    }        
+}

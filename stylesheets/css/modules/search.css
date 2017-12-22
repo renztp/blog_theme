@@ -1,0 +1,15 @@
+.search-win {
+  background: #1F2D45;
+  top: 7.6vh;
+  left: 0;
+  z-index: 99;
+  display: none;
+  border-top: 1px solid skyblue; }
+
+@keyframes appear {
+  from {
+    display: none; }
+  to {
+    display: block; } }
+
+/*# sourceMappingURL=search.css.map */
